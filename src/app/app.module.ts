@@ -15,10 +15,15 @@ import { MatListModule } from '@angular/material/list';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ContactCreateComponent } from './contact-create/contact-create.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
-import { ContacUpdateComponent } from './contac-update/contac-update.component';
+import { ContacUpdateComponent } from './contact-update/contact-update.component';
 
 @NgModule({
-  declarations: [AppComponent, ContactCreateComponent, ContactListComponent, ContacUpdateComponent],
+  declarations: [
+    AppComponent,
+    ContactCreateComponent,
+    ContactListComponent,
+    ContacUpdateComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -30,6 +35,7 @@ import { ContacUpdateComponent } from './contac-update/contac-update.component';
     MatIconModule,
     MatListModule,
     MatToolbarModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

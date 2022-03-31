@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContacUpdateComponent } from './contac-update/contac-update.component';
+import { ContacUpdateComponent } from './contact-update/contact-update.component';
 import { ContactCreateComponent } from './contact-create/contact-create.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 
